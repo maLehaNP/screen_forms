@@ -71,7 +71,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         self.open_btn.clicked.connect(self.buttons)
 
-    def buttons(selfd):
+    def buttons(self):
         if self.sender() == self.open_btn:
             self.setpix(self.file_list.currentItem().text())
 
