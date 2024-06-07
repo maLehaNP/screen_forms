@@ -52,7 +52,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit"/>
+     <widget class="QLineEdit" name="user"/>
     </item>
     <item>
      <widget class="QLabel" name="label_2">
@@ -74,10 +74,10 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="password"/>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="ok_btn">
       <property name="text">
        <string>ОК</string>
       </property>
